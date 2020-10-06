@@ -1,0 +1,20 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+$font-sans: 'Kumbh Sans', sans-serif;
+// colors
+$black: #212121;
+$white: #fff;
+$bronze: #bb9865;
+$green: #64bb46;
+$aqua: #00ffcc;
+
+// resolutions
+$sm: 768px;
+$md: 1200px;
+$lg: 1400px;
+$xl: 1900px;
+
+// elements
+$contact-bg-color: #bb986580;
+$contact-bg-color-hover: #bb9865cf;
+$contact-font-color: $white;

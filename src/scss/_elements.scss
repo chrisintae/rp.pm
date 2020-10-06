@@ -1,0 +1,40 @@
+// Headshot
+.headshot-container {
+  margin-bottom: 20px;
+
+  .headshot-img {
+    max-width: 125px;
+    border-radius: 100%;
+  }
+}
+
+.button {
+  &.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: unset;
+    background-color: $contact-bg-color;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+    line-height: 2.25;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $contact-font-color;
+    transition: background-color 0.2s ease;
+    padding: 20px 7px 18px 14px;
+    margin: 30px 0;
+
+    &:hover {
+      background-color: $contact-bg-color-hover;
+    }
+  }
+}
+
+@media screen and (min-width: $sm) {
+  .button {
+    &.contact {
+      max-width: 200px;
+    }
+  }
+}
